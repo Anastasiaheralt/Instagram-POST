@@ -1,0 +1,169 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'roboto', sans-serif;
+    font-size: large;
+    background: #fafafa;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    position: fixed; 
+    /* para que se vea siempre la barra sin importar si se se hace scroll */
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 50px;
+     background: #fff;
+     border-bottom: 1px solid #dfdfdf;
+     padding: 5px 0;
+     /* aqui se la esta dando un borde a la barra */
+
+}
+
+.nav__contenedor{
+    display: flex;
+    justify-content: space-between; 
+    /* para que se separen los items */
+    align-items: center;
+    /* para que se centren verticalmente */
+    width: 70%;
+
+
+}
+
+
+.instagram{
+    height: 100%;
+    margin-top: 5px;
+}
+
+.nav__buscar{
+    width: 200px;
+    height: 25px;
+    background: #fafafa;
+    border:  1px solid #dfdfdf;
+    text-align: center;
+}
+/* 
+.nav__items{
+    height: 22px;
+}
+.nav__items img{
+    margin-left: 17px;
+}
+ 
+.icono{
+    height: 100%;
+    cursor:  pointer;
+    margin:  0 10px;
+    display: inline-block;
+}
+ 
+.perfil{
+    background: url(imagendeperfil.png);
+    background-size: cover;
+    width: 22px;
+}
+ */
+
+ .principal{
+     display: flex;
+     justify-content: center;
+     width: 100%;
+     padding: 40px 0;
+     margin-top: 50px;
+ }
+
+ .contenedor{
+     display: grid;
+     grid-template-columns: 60% 40%;
+     width: 70%;
+ }
+
+ .columna1{
+     display: flex;
+     flex-direction: column;
+ }
+/*  
+.estado{
+    width: 100%;
+    height: 120px;
+    background: #fff;
+    border: 1px solid#dfdfdf;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}*/
+
+.imagenperfil{
+    display: flex;
+}
+
+.usuario{
+margin: 5 10px;
+font-weight: bold;
+}
+
+.icons{
+    justify-content: space-between;
+    margin-left: 3px;
+}
+
+i.save{
+    margin:  10px;
+}
+
+.post{
+width: 100%;
+height: auto;
+background: solid #fff;
+border: 1px solid #dfdfdf;
+margin-top:  40px;
+
+}
+
+.info{
+width:  99.5%;
+height:  60px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0 20px;
+}
+
+.info .user{
+    display: flex;
+    align-items: center;
+
+}
+
+
+.info .imagenperfil{
+    height: 40px;
+    width:  40px;
+    padding: 0;
+    background: none;
+}
+
+.info .imagenperfil{
+    border: none;
+
+}
+
+.imagen-post{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.align-self-center{
+    margin: 490px;px;
+
+}
+
+b  {  font-weight: 500; }
